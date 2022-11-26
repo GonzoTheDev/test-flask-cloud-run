@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello again from Dockerised Flask"
+    return "Hello again from Dockerised Flask <br><br> THIS IS AN UPDATE PUSHED TO GITHUB AND AUTOMATICALLY DEPLOYED BY AZURE CI/CD Pipeline"
 
 @app.route("/route32a")
 def route32a():
